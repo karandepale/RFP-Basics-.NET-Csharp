@@ -23,6 +23,11 @@ namespace DotNetBasics
             // Default constructor OR Parameterless Constructor
             DefaultConstructor obj4 = new DefaultConstructor();
             Console.ReadLine();
+
+
+            // Parameterized constructor
+            ParameterizedConstructor obj5 = new ParameterizedConstructor(10, 20, "Karan");
+            Console.ReadLine();
         }
     }
 }
