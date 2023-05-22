@@ -12,15 +12,17 @@ namespace DotNetBasics
         {
             Console.WriteLine("Welcome to Basics of .NET");
             ArrayTopic obj1 = new ArrayTopic();
-            obj1.ArrMethod();
+           // obj1.ArrMethod();
 
             ArrayListDemo obj2 = new ArrayListDemo();
-            obj2.ArrayListMethod();
+            //obj2.ArrayListMethod();
 
             VarKeyWord obj3 = new VarKeyWord();
-            obj3.VarMethod();
+            //obj3.VarMethod();
 
-
+            // Default constructor OR Parameterless Constructor
+            DefaultConstructor obj4 = new DefaultConstructor();
+            Console.ReadLine();
         }
     }
 }
