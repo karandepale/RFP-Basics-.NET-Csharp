@@ -17,6 +17,10 @@ namespace DotNetBasics
             ArrayListDemo obj2 = new ArrayListDemo();
             obj2.ArrayListMethod();
 
+            VarKeyWord obj3 = new VarKeyWord();
+            obj3.VarMethod();
+
+
         }
     }
 }
