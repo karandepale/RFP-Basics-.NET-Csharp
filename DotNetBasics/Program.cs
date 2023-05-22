@@ -11,6 +11,8 @@ namespace DotNetBasics
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Basics of .NET");
+            ArrayTopic obj1 = new ArrayTopic();
+            obj1.ArrMethod();
         }
     }
 }
