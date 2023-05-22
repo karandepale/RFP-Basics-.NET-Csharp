@@ -13,6 +13,10 @@ namespace DotNetBasics
             Console.WriteLine("Welcome to Basics of .NET");
             ArrayTopic obj1 = new ArrayTopic();
             obj1.ArrMethod();
+
+            ArrayListDemo obj2 = new ArrayListDemo();
+            obj2.ArrayListMethod();
+
         }
     }
 }
