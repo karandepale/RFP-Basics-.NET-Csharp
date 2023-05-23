@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static DotNetBasics.MultiLevelInheritance;
 using static DotNetBasics.SingleLevelInheritance;
 
 namespace DotNetBasics
@@ -30,9 +31,17 @@ namespace DotNetBasics
             // ParameterizedConstructor obj5 = new ParameterizedConstructor(10, 20, "Karan");
             // Console.ReadLine();
 
+            // ------------------------- INHERITANCE -------------------------------------
             // Single Level Inheritance
             //ChildClass obj4 = new ChildClass();
             //obj4.DisplayEmpDetail();
+
+            //MULTI LEVEL INHERITANCE
+            Child obj5 = new Child();
+            obj5.DisplayDetail();
+            obj5.DisplayEmpDetailOnParent();
+
+
         }
     }
 }
