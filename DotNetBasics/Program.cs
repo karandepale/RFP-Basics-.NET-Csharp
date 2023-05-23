@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static DotNetBasics.SingleLevelInheritance;
 
 namespace DotNetBasics
 {
@@ -10,24 +11,28 @@ namespace DotNetBasics
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Basics of .NET");
-            ArrayTopic obj1 = new ArrayTopic();
-           // obj1.ArrMethod();
+            //Console.WriteLine("Welcome to Basics of .NET");
+            //ArrayTopic obj1 = new ArrayTopic();
+            // obj1.ArrMethod();
 
-            ArrayListDemo obj2 = new ArrayListDemo();
+            //ArrayListDemo obj2 = new ArrayListDemo();
             //obj2.ArrayListMethod();
 
-            VarKeyWord obj3 = new VarKeyWord();
+            //VarKeyWord obj3 = new VarKeyWord();
             //obj3.VarMethod();
 
             // Default constructor OR Parameterless Constructor
-            DefaultConstructor obj4 = new DefaultConstructor();
-            Console.ReadLine();
+            // DefaultConstructor obj4 = new DefaultConstructor();
+            // Console.ReadLine();
 
 
             // Parameterized constructor
-            ParameterizedConstructor obj5 = new ParameterizedConstructor(10, 20, "Karan");
-            Console.ReadLine();
+            // ParameterizedConstructor obj5 = new ParameterizedConstructor(10, 20, "Karan");
+            // Console.ReadLine();
+
+            // Single Level Inheritance
+            //ChildClass obj4 = new ChildClass();
+            //obj4.DisplayEmpDetail();
         }
     }
 }
