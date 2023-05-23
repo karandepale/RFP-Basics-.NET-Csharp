@@ -37,10 +37,15 @@ namespace DotNetBasics
             //obj4.DisplayEmpDetail();
 
             //MULTI LEVEL INHERITANCE
-            Child obj5 = new Child();
-            obj5.DisplayDetail();
-            obj5.DisplayEmpDetailOnParent();
+            // Child obj5 = new Child();
+            //obj5.DisplayDetail();
+            //obj5.DisplayEmpDetailOnParent();
 
+
+            // Multiple Inheritance
+            Smartphone obj6 = new Smartphone();
+            obj6.GetPhoneDetail();
+            obj6.GetCameraDetail();
 
         }
     }
