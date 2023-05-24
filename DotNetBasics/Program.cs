@@ -43,9 +43,18 @@ namespace DotNetBasics
 
 
             // Multiple Inheritance
-            Smartphone obj6 = new Smartphone();
-            obj6.GetPhoneDetail();
-            obj6.GetCameraDetail();
+            //Smartphone obj6 = new Smartphone();
+            //obj6.GetPhoneDetail();
+            //obj6.GetCameraDetail();
+
+
+            //----------------------------------- POLYMORPHISM --------------------------------
+            MethodOverloading obj7 = new MethodOverloading();
+            obj7.Display("Karan", 300000);
+            obj7.Display(100, 200);
+
+
+
 
         }
     }
