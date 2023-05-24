@@ -54,12 +54,14 @@ namespace DotNetBasics
             //obj7.Display(100, 200);
 
 
-           Child obj8 = new Child();
-            obj8.Display(5, 5);
+            //Child obj8 = new Child();
+            //obj8.Display(5, 5);
 
 
 
-
+            //------------------------ ENCAPSULATION ---------------------------------------
+            Encapsulation obj9 = new Encapsulation();
+            obj9.Get();
 
 
 
