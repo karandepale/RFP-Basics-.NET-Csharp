@@ -49,9 +49,17 @@ namespace DotNetBasics
 
 
             //----------------------------------- POLYMORPHISM --------------------------------
-            MethodOverloading obj7 = new MethodOverloading();
-            obj7.Display("Karan", 300000);
-            obj7.Display(100, 200);
+            //MethodOverloading obj7 = new MethodOverloading();
+            //obj7.Display("Karan", 300000);
+            //obj7.Display(100, 200);
+
+
+           Child obj8 = new Child();
+            obj8.Display(5, 5);
+
+
+
+
 
 
 
