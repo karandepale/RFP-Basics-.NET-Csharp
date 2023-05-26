@@ -68,7 +68,7 @@ namespace DotNetBasics
 
 
             // ------------------------- LIST----------------------------------
-            ListProgram obj1 = new ListProgram()
+    /*        ListProgram obj1 = new ListProgram()
             {
                 name = "karan",
                 age = 23,
@@ -90,6 +90,12 @@ namespace DotNetBasics
             {
                 Console.WriteLine("Name: " + item.name + " , " + " Age: " + item.age + " , " + "salary: " + item.salary);
             }
+
+            */
+
+
+
+           
 
 
 
