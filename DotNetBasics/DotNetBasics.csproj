@@ -47,6 +47,8 @@
     <Compile Include="ArrayTopic.cs" />
     <Compile Include="DefaultConstructor.cs" />
     <Compile Include="Encapsulation.cs" />
+    <Compile Include="EncapsulationGetterSetterProperty.cs" />
+    <Compile Include="ListProgram.cs" />
     <Compile Include="MethodOverloading.cs" />
     <Compile Include="MethodOverRiding.cs" />
     <Compile Include="MultiLevelInheritance.cs" />

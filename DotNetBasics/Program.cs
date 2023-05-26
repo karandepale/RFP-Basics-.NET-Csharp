@@ -60,8 +60,40 @@ namespace DotNetBasics
 
 
             //------------------------ ENCAPSULATION ---------------------------------------
-            Encapsulation obj9 = new Encapsulation();
-            obj9.Get();
+            // Encapsulation obj9 = new Encapsulation();
+            //obj9.Get();
+
+            // EncapsulationGetterSetterProperty obj10 = new EncapsulationGetterSetterProperty();
+            //obj10.myProperty
+
+
+            // ------------------------- LIST----------------------------------
+            ListProgram obj1 = new ListProgram()
+            {
+                name = "karan",
+                age = 23,
+                salary = 1000
+            };
+
+            ListProgram obj2 = new ListProgram()
+            {
+                name = "Manoj",
+                age = 25,
+                salary = 5000
+            };
+
+            List <ListProgram> list = new List <ListProgram> ();
+            list.Add(obj1);
+            list.Add(obj2);
+
+            foreach(var item in list)
+            {
+                Console.WriteLine("Name: " + item.name + " , " + " Age: " + item.age + " , " + "salary: " + item.salary);
+            }
+
+
+
+
 
 
 
