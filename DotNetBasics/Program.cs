@@ -67,35 +67,46 @@ namespace DotNetBasics
             //obj10.myProperty
 
 
+
+            //--------------------- ABSTRACTION -----------------------------------------
+            Animal objDog = new Dog();
+            objDog.Sound();
+
+            Animal objCat = new Cat();
+            objCat.Sound();
+
+
+
+
             // ------------------------- LIST----------------------------------
-    /*        ListProgram obj1 = new ListProgram()
-            {
-                name = "karan",
-                age = 23,
-                salary = 1000
-            };
+            /*        ListProgram obj1 = new ListProgram()
+                    {
+                        name = "karan",
+                        age = 23,
+                        salary = 1000
+                    };
 
-            ListProgram obj2 = new ListProgram()
-            {
-                name = "Manoj",
-                age = 25,
-                salary = 5000
-            };
+                    ListProgram obj2 = new ListProgram()
+                    {
+                        name = "Manoj",
+                        age = 25,
+                        salary = 5000
+                    };
 
-            List <ListProgram> list = new List <ListProgram> ();
-            list.Add(obj1);
-            list.Add(obj2);
+                    List <ListProgram> list = new List <ListProgram> ();
+                    list.Add(obj1);
+                    list.Add(obj2);
 
-            foreach(var item in list)
-            {
-                Console.WriteLine("Name: " + item.name + " , " + " Age: " + item.age + " , " + "salary: " + item.salary);
-            }
+                    foreach(var item in list)
+                    {
+                        Console.WriteLine("Name: " + item.name + " , " + " Age: " + item.age + " , " + "salary: " + item.salary);
+                    }
 
-            */
+                    */
 
 
 
-           
+
 
 
 

@@ -36,7 +36,7 @@
     <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DotNetBasics.DictionaryProgram</StartupObject>
+    <StartupObject>DotNetBasics.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractionDemo.cs" />
     <Compile Include="ArrayListDemo.cs" />
     <Compile Include="ArrayTopic.cs" />
     <Compile Include="DefaultConstructor.cs" />
