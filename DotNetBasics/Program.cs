@@ -69,11 +69,11 @@ namespace DotNetBasics
 
 
             //--------------------- ABSTRACTION -----------------------------------------
-            Animal objDog = new Dog();
-            objDog.Sound();
+            // Animal objDog = new Dog();
+            // objDog.Sound();
 
-            Animal objCat = new Cat();
-            objCat.Sound();
+            // Animal objCat = new Cat();
+            // objCat.Sound();
 
 
 
@@ -106,6 +106,9 @@ namespace DotNetBasics
 
 
 
+            // -------------------- GENERIC ------------------------------------
+            GenericClass obj = new GenericClass();
+            obj.CheckEqual("Karan" , "Karan");
 
 
 
