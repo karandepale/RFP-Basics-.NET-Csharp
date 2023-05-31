@@ -107,10 +107,17 @@ namespace DotNetBasics
 
 
             // -------------------- GENERIC ------------------------------------
-            GenericClass obj = new GenericClass();
-            obj.CheckEqual("Karan" , "Karan");
+            // GenericClass obj = new GenericClass();
+            // obj.CheckEqual("Karan" , "Karan");
 
 
+
+            //------------------ LINKED LIST ------------------------------------
+            LinkedListSubClass objList = new LinkedListSubClass();
+            objList.AddNewData(100);
+            objList.AddNewData(200);
+            objList.AddNewData(300);
+            objList.AddNewData(400);
 
 
 
