@@ -13,18 +13,29 @@ namespace DotNetBasics
         static void Main(string[] args)
         {
 
+            // Exception Handling :-
+            ExceptionHandlingDemo obj = new ExceptionHandlingDemo();
+            obj.CheckDivision();
+
+
+
+
+
+
+
+
             // Generic Example :-
-            GenericsDemo objGeneric = new GenericsDemo();
+            //GenericsDemo objGeneric = new GenericsDemo();
 
-            Console.WriteLine("Enter first value :");
-            string str1 = Console.ReadLine();
-            Console.WriteLine("Enter Second value :");
-            string str2 = Console.ReadLine();
+            //Console.WriteLine("Enter first value :");
+            // string str1 = Console.ReadLine();
+            // Console.WriteLine("Enter Second value :");
+            // string str2 = Console.ReadLine();
 
-            Console.WriteLine( "Before Swap  :" +  str1 + " , " + str2);
+            // Console.WriteLine( "Before Swap  :" +  str1 + " , " + str2);
 
-            objGeneric.SwapTowInput(ref str1, ref str2);
-            Console.WriteLine( "After Swap  : " + str1 + " , " + str2);
+            //  objGeneric.SwapTowInput(ref str1, ref str2);
+            //  Console.WriteLine( "After Swap  : " + str1 + " , " + str2);
 
 
 
