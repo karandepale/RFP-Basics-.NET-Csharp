@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using static DotNetBasics.MultiLevelInheritance;
@@ -12,10 +13,48 @@ namespace DotNetBasics
     {
         static void Main(string[] args)
         {
+            // .Net Reflection :-
+           
+            Type classType = typeof(Person);
+            Console.WriteLine( "Type information of Person Class :- " +  classType);
+
+            Console.WriteLine("----------------------");
+
+            Console.WriteLine("Creating the object");
+            Person obj = new Person("Karan" , 23);
+
+            Console.WriteLine("----------------------");
+
+            Console.WriteLine("Getting Properties of Person Class :-");
+            PropertyInfo[] myProperties = classType.GetProperties();
+            foreach(PropertyInfo data in myProperties)
+            {
+                Console.WriteLine(data);
+            }
+
+            Console.WriteLine("----------------------");
+
+            Console.WriteLine("Getting Methods of Person class :-");
+            MethodInfo[] myMethods = classType.GetMethods();
+            foreach(MethodInfo data in myMethods)
+            {
+                Console.WriteLine(data);
+            }
+
+
+
+
+
+
+
+
+
+
+
 
             // Exception Handling :-
-            ExceptionHandlingDemo obj = new ExceptionHandlingDemo();
-            obj.CheckDivision();
+            // ExceptionHandlingDemo obj = new ExceptionHandlingDemo();
+            // obj.CheckDivision();
 
 
 
