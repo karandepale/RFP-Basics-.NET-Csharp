@@ -12,6 +12,28 @@ namespace DotNetBasics
     {
         static void Main(string[] args)
         {
+
+            // Generic Example :-
+            GenericsDemo objGeneric = new GenericsDemo();
+
+            Console.WriteLine("Enter first value :");
+            string str1 = Console.ReadLine();
+            Console.WriteLine("Enter Second value :");
+            string str2 = Console.ReadLine();
+
+            Console.WriteLine( "Before Swap  :" +  str1 + " , " + str2);
+
+            objGeneric.SwapTowInput(ref str1, ref str2);
+            Console.WriteLine( "After Swap  : " + str1 + " , " + str2);
+
+
+
+
+
+
+
+
+
             //Console.WriteLine("Welcome to Basics of .NET");
             //ArrayTopic obj1 = new ArrayTopic();
             // obj1.ArrMethod();
@@ -113,11 +135,13 @@ namespace DotNetBasics
 
 
             //------------------ LINKED LIST ------------------------------------
-            LinkedListSubClass objList = new LinkedListSubClass();
-            objList.AddNewData(100);
-            objList.AddNewData(200);
-            objList.AddNewData(300);
-            objList.AddNewData(400);
+            //  LinkedListSubClass objList = new LinkedListSubClass();
+            //  objList.AddNewData(100);
+            //  objList.AddNewData(200);
+            //  objList.AddNewData(300);
+            //  objList.AddNewData(400);
+
+
 
 
 

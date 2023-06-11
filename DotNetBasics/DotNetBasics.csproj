@@ -57,6 +57,7 @@
     <Compile Include="Encapsulation.cs" />
     <Compile Include="EncapsulationGetterSetterProperty.cs" />
     <Compile Include="GenericCode.cs" />
+    <Compile Include="GenericsDemo.cs" />
     <Compile Include="LinkedListMain.cs" />
     <Compile Include="LinkedListSubClass.cs" />
     <Compile Include="ListProgram.cs" />
