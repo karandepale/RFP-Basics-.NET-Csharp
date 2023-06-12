@@ -13,33 +13,46 @@ namespace DotNetBasics
     {
         static void Main(string[] args)
         {
+
+
+            // ----------------- ENUM ----------------------
+            EnumDemo obj = new EnumDemo();
+            obj.EnumMethod();
+
+
+
+
+
+
+
+
             // .Net Reflection :-
-           
-            Type classType = typeof(Person);
-            Console.WriteLine( "Type information of Person Class :- " +  classType);
 
-            Console.WriteLine("----------------------");
+            // Type classType = typeof(Person);
+            // Console.WriteLine( "Type information of Person Class :- " +  classType);
 
-            Console.WriteLine("Creating the object");
-            Person obj = new Person("Karan" , 23);
+            //   Console.WriteLine("----------------------");
 
-            Console.WriteLine("----------------------");
+            //  Console.WriteLine("Creating the object");
+            //  Person obj = new Person("Karan" , 23);
 
-            Console.WriteLine("Getting Properties of Person Class :-");
-            PropertyInfo[] myProperties = classType.GetProperties();
-            foreach(PropertyInfo data in myProperties)
-            {
-                Console.WriteLine(data);
-            }
+            //  Console.WriteLine("----------------------");
 
-            Console.WriteLine("----------------------");
+            //  Console.WriteLine("Getting Properties of Person Class :-");
+            //  PropertyInfo[] myProperties = classType.GetProperties();
+            //  foreach(PropertyInfo data in myProperties)
+            // {
+            //     Console.WriteLine(data);
+            //  }
 
-            Console.WriteLine("Getting Methods of Person class :-");
-            MethodInfo[] myMethods = classType.GetMethods();
-            foreach(MethodInfo data in myMethods)
-            {
-                Console.WriteLine(data);
-            }
+            //  Console.WriteLine("----------------------");
+
+            //  Console.WriteLine("Getting Methods of Person class :-");
+            //  MethodInfo[] myMethods = classType.GetMethods();
+            //  foreach(MethodInfo data in myMethods)
+            //  {
+            //    Console.WriteLine(data);
+         //   }
 
 
 
