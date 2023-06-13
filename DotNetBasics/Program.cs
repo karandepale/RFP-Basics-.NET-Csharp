@@ -23,8 +23,8 @@ namespace DotNetBasics
             Console.WriteLine("Square of " + num + " is :- " + result);
 
 
-
-
+            // Type 02 ->  ------------------  STATEMENT LAMBDA ------------------
+            StatementLambda.Greet("Karan");
 
 
 
