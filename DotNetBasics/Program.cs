@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Reflection;
 using System.Text;
@@ -14,10 +15,24 @@ namespace DotNetBasics
         static void Main(string[] args)
         {
 
+            // Type 01 ->  ------------------  EXPRESSION LAMBDA -----------------------
+            Console.WriteLine("Enter a number for calculate the square");
+            int num = Convert.ToInt16(Console.ReadLine());
+
+            int result = ExpressionLambda.sqr(num);
+            Console.WriteLine("Square of " + num + " is :- " + result);
+
+
+
+
+
+
+
+
 
             // ----------------- ENUM ----------------------
-            EnumDemo obj = new EnumDemo();
-            obj.EnumMethod();
+            // EnumDemo obj = new EnumDemo();
+            // obj.EnumMethod();
 
 
 
@@ -52,7 +67,7 @@ namespace DotNetBasics
             //  foreach(MethodInfo data in myMethods)
             //  {
             //    Console.WriteLine(data);
-         //   }
+            //   }
 
 
 

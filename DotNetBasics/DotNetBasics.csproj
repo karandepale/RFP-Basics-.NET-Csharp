@@ -58,6 +58,7 @@
     <Compile Include="EncapsulationGetterSetterProperty.cs" />
     <Compile Include="EnumDemo.cs" />
     <Compile Include="ExceptionHandlingDemo.cs" />
+    <Compile Include="ExpressionLambda.cs" />
     <Compile Include="GenericCode.cs" />
     <Compile Include="GenericsDemo.cs" />
     <Compile Include="LinkedListMain.cs" />
