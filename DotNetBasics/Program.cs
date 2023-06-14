@@ -14,17 +14,24 @@ namespace DotNetBasics
     {
         static void Main(string[] args)
         {
-
+            
+            
+            
+            
+            
+            
+            
+            //LAMBDA EXPRESSION :-
             // Type 01 ->  ------------------  EXPRESSION LAMBDA -----------------------
-            Console.WriteLine("Enter a number for calculate the square");
-            int num = Convert.ToInt16(Console.ReadLine());
+          //  Console.WriteLine("Enter a number for calculate the square");
+           // int num = Convert.ToInt16(Console.ReadLine());
 
-            int result = ExpressionLambda.sqr(num);
-            Console.WriteLine("Square of " + num + " is :- " + result);
+           // int result = ExpressionLambda.sqr(num);
+           // Console.WriteLine("Square of " + num + " is :- " + result);
 
 
             // Type 02 ->  ------------------  STATEMENT LAMBDA ------------------
-            StatementLambda.Greet("Karan");
+            //StatementLambda.Greet("Karan");
 
 
 

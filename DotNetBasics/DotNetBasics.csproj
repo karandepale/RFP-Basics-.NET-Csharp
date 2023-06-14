@@ -36,7 +36,7 @@
     <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DotNetBasics.Program</StartupObject>
+    <StartupObject>DotNetBasics.FileHandlingDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -59,6 +59,7 @@
     <Compile Include="EnumDemo.cs" />
     <Compile Include="ExceptionHandlingDemo.cs" />
     <Compile Include="ExpressionLambda.cs" />
+    <Compile Include="FileHandlingDemo.cs" />
     <Compile Include="GenericCode.cs" />
     <Compile Include="GenericsDemo.cs" />
     <Compile Include="LinkedListMain.cs" />
@@ -78,6 +79,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MyTextFileForIOHANDLING.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
