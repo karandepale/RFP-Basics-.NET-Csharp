@@ -36,7 +36,7 @@
     <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DotNetBasics.FileHandlingDemo</StartupObject>
+    <StartupObject>DotNetBasics.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -73,6 +73,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReflectionDemo.cs" />
+    <Compile Include="SerilizationBinaryDemoClass.cs" />
     <Compile Include="SingleLevelInheritance.cs" />
     <Compile Include="StatementLambda.cs" />
     <Compile Include="VarKeyWord.cs" />

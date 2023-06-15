@@ -14,20 +14,30 @@ namespace DotNetBasics
     {
         static void Main(string[] args)
         {
-            
-            
-            
-            
-            
-            
-            
+            // --------------- SEARIALIZATION AND DESERIALIZATION ----------------
+            Console.WriteLine("Serilization applied...");
+            SerilizationDeserilizationClass obj = new SerilizationDeserilizationClass();
+            obj.SerilizationMthod();
+
+            Console.WriteLine("------------------------");
+
+            obj.DeseRilization();
+
+
+
+
+
+
+
+
+
             //LAMBDA EXPRESSION :-
             // Type 01 ->  ------------------  EXPRESSION LAMBDA -----------------------
-          //  Console.WriteLine("Enter a number for calculate the square");
-           // int num = Convert.ToInt16(Console.ReadLine());
+            //  Console.WriteLine("Enter a number for calculate the square");
+            // int num = Convert.ToInt16(Console.ReadLine());
 
-           // int result = ExpressionLambda.sqr(num);
-           // Console.WriteLine("Square of " + num + " is :- " + result);
+            // int result = ExpressionLambda.sqr(num);
+            // Console.WriteLine("Square of " + num + " is :- " + result);
 
 
             // Type 02 ->  ------------------  STATEMENT LAMBDA ------------------
