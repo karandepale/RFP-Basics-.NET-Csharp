@@ -44,7 +44,7 @@ namespace DotNetBasics
 
             Console.WriteLine("Creating and entering new dataa text into file using FileStream");
             string myPath = "C:\\Users\\Karan Depale\\RFC285\\BasicCSharp\\RFP-Basics-.NET-Csharp\\DotNetBasics\\NewFileUsingFileStream.txt";
-            using (FileStream file = new FileStream(myPath, FileMode.Open))
+            using (FileStream file = new FileStream(myPath, FileMode.Create))
             {
                 Console.WriteLine("File cerated...");
                 StreamWriter objWrite = new StreamWriter(file);

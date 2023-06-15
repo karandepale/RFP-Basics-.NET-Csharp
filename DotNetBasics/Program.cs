@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
@@ -14,14 +15,27 @@ namespace DotNetBasics
     {
         static void Main(string[] args)
         {
+
+
             // --------------- SEARIALIZATION AND DESERIALIZATION ----------------
-            Console.WriteLine("Serilization applied...");
-            SerilizationDeserilizationClass obj = new SerilizationDeserilizationClass();
-            obj.SerilizationMthod();
+            //  Console.WriteLine("Serilization applied...");
+            //  SerilizationDeserilizationClass obj = new SerilizationDeserilizationClass();
+            //            obj.SerilizationMthod();
+            //          Console.WriteLine("------------------------");
+            //        obj.DeseRilization();
 
-            Console.WriteLine("------------------------");
 
-            obj.DeseRilization();
+            // NewtonSoft.json :-
+            Bike obj = new Bike { Qnt = 4, Name = "HayaBusa" };
+            Console.WriteLine("Original Data: " + obj.Qnt + ", " + obj.Name);
+
+            string jsonFormatResult = JsonConvert.SerializeObject(obj);
+            Console.WriteLine("Json Object: " + jsonFormatResult);
+
+            Bike deserializedObj = JsonConvert.DeserializeObject<Bike>(jsonFormatResult);
+            Console.WriteLine(deserializedObj.Qnt + deserializedObj.Name);
+
+
 
 
 
