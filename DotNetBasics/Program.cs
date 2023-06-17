@@ -36,6 +36,18 @@ namespace DotNetBasics
 
 
 
+            // (3) LSP (Liskov Substitution Principle)
+            Employeee empObj = new Employeee();
+            PermanentEmployee PeObj = new PermanentEmployee();
+
+            empObj.CalculateSalary();
+            empObj.CalculateBonus();
+
+            PeObj.CalculateBonus();
+            PeObj.CalculateSalary();
+
+
+
 
 
             // --------------- SEARIALIZATION AND DESERIALIZATION ----------------
