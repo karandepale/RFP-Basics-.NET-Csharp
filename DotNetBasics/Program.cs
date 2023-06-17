@@ -49,6 +49,14 @@ namespace DotNetBasics
 
 
 
+            // (4) ISP (Interface Segregation Principle)
+            DerivedFlyingClass IspObj = new DerivedFlyingClass();
+            IspObj.BirdFly();
+            IspObj.DogRun();
+
+
+
+
 
             // --------------- SEARIALIZATION AND DESERIALIZATION ----------------
             //  Console.WriteLine("Serilization applied...");
