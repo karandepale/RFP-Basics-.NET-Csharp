@@ -15,6 +15,26 @@ namespace DotNetBasics
     {
         static void Main(string[] args)
         {
+            // Solid Principle :-
+
+            // (1) SRP (Single Responsibility Principle)
+            Vehicle objVehicle = new Vehicle();
+            objVehicle.GetVehicleColor();
+
+            Email objEmail = new Email();
+            objEmail.EmailSend();
+
+
+            // (2) OCP (Open Close Principle)
+            AllMobileInfo mainObj = new AllMobileInfo();
+
+            RedmiDerived redmi = new RedmiDerived();
+            IphoneDerived iphone = new IphoneDerived();
+
+            mainObj.AllInfo(redmi);
+            mainObj.AllInfo(iphone);
+
+
 
 
             // --------------- SEARIALIZATION AND DESERIALIZATION ----------------
@@ -26,14 +46,14 @@ namespace DotNetBasics
 
 
             // NewtonSoft.json :-
-            Bike obj = new Bike { Qnt = 4, Name = "HayaBusa" };
-            Console.WriteLine("Original Data: " + obj.Qnt + ", " + obj.Name);
+            //   Bike obj = new Bike { Qnt = 4, Name = "HayaBusa" };
+            //  Console.WriteLine("Original Data: " + obj.Qnt + ", " + obj.Name);
 
-            string jsonFormatResult = JsonConvert.SerializeObject(obj);
-            Console.WriteLine("Json Object: " + jsonFormatResult);
+            // string jsonFormatResult = JsonConvert.SerializeObject(obj);
+            //        Console.WriteLine("Json Object: " + jsonFormatResult);
 
-            Bike deserializedObj = JsonConvert.DeserializeObject<Bike>(jsonFormatResult);
-            Console.WriteLine(deserializedObj.Qnt + deserializedObj.Name);
+            // Bike deserializedObj = JsonConvert.DeserializeObject<Bike>(jsonFormatResult);
+            // Console.WriteLine(deserializedObj.Qnt + deserializedObj.Name);
 
 
 
