@@ -67,6 +67,7 @@
     <Compile Include="GenericsDemo.cs" />
     <Compile Include="LinkedListMain.cs" />
     <Compile Include="LinkedListSubClass.cs" />
+    <Compile Include="LINQDemo.cs" />
     <Compile Include="ListProgram.cs" />
     <Compile Include="MethodOverloading.cs" />
     <Compile Include="MethodOverRiding.cs" />

@@ -15,44 +15,53 @@ namespace DotNetBasics
     {
         static void Main(string[] args)
         {
+            // -------  LINQ -------------
+            LINQDemo obj = new LINQDemo();
+            obj.LinqDesc();
+
+
+
+
+
+
             // Solid Principle :-
 
             // (1) SRP (Single Responsibility Principle)
-            Vehicle objVehicle = new Vehicle();
-            objVehicle.GetVehicleColor();
+            //Vehicle objVehicle = new Vehicle();
+            //objVehicle.GetVehicleColor();
 
-            Email objEmail = new Email();
-            objEmail.EmailSend();
+            //Email objEmail = new Email();
+            //objEmail.EmailSend();
 
 
             // (2) OCP (Open Close Principle)
-            AllMobileInfo mainObj = new AllMobileInfo();
+            //AllMobileInfo mainObj = new AllMobileInfo();
 
-            RedmiDerived redmi = new RedmiDerived();
-            IphoneDerived iphone = new IphoneDerived();
+            //RedmiDerived redmi = new RedmiDerived();
+            //IphoneDerived iphone = new IphoneDerived();
 
-            mainObj.AllInfo(redmi);
-            mainObj.AllInfo(iphone);
+            //mainObj.AllInfo(redmi);
+            //mainObj.AllInfo(iphone);
 
 
 
             // (3) LSP (Liskov Substitution Principle)
-            Employeee empObj = new Employeee();
-            PermanentEmployee PeObj = new PermanentEmployee();
+            // Employeee empObj = new Employeee();
+            // PermanentEmployee PeObj = new PermanentEmployee();
 
-            empObj.CalculateSalary();
-            empObj.CalculateBonus();
+            // empObj.CalculateSalary();
+            // empObj.CalculateBonus();
 
-            PeObj.CalculateBonus();
-            PeObj.CalculateSalary();
+            // PeObj.CalculateBonus();
+            // PeObj.CalculateSalary();
 
 
 
 
             // (4) ISP (Interface Segregation Principle)
-            DerivedFlyingClass IspObj = new DerivedFlyingClass();
-            IspObj.BirdFly();
-            IspObj.DogRun();
+            // DerivedFlyingClass IspObj = new DerivedFlyingClass();
+            // IspObj.BirdFly();
+            // IspObj.DogRun();
 
 
 
