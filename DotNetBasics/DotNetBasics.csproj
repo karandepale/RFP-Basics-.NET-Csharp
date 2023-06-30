@@ -73,6 +73,7 @@
     <Compile Include="MethodOverRiding.cs" />
     <Compile Include="MultiLevelInheritance.cs" />
     <Compile Include="MultipleInheritance.cs" />
+    <Compile Include="MultiThreadingDemo.cs" />
     <Compile Include="NewtonSoftSerilization.cs" />
     <Compile Include="ParameterizedConstructor.cs" />
     <Compile Include="Principle1-SRP.cs" />

@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Reflection;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using static DotNetBasics.MultiLevelInheritance;
 using static DotNetBasics.SingleLevelInheritance;
@@ -15,9 +16,33 @@ namespace DotNetBasics
     {
         static void Main(string[] args)
         {
+            //---------------- MULTITHREADING---------------------
+            Console.WriteLine("------------ Threading start-----------");
+            MultiThreadingDemo obj = new MultiThreadingDemo();
+
+            Thread td1 = new Thread(obj.PrintNum);
+            Thread td2 = new Thread(obj.SayHellow);
+            Thread td3 = new Thread(obj.TablePrint);
+            
+            td1.Start();
+            td2.Start();
+            td3.Start();
+
+            td1.Join();
+            td2.Join();
+            td3.Join();
+            Console.WriteLine("------------ Threading ENDING-----------");
+
+
+
+
+
+
+
+
             // -------  LINQ -------------
-            LINQDemo obj = new LINQDemo();
-            obj.LinqDesc();
+            // LINQDemo obj = new LINQDemo();
+            // obj.LinqDesc();
 
 
 
